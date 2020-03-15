@@ -1,0 +1,130 @@
+html {
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.nav-container {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 15px;
+  font-size: 13px;
+  font-family: arial;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+.opacity {
+  opacity: 0.75;
+}
+
+.nav-container .opacity a:hover {
+  text-decoration: underline;
+}
+
+.push {
+  margin-left: auto;
+  margin-right: 10px;
+  display: flex;
+}
+
+.push img {
+  margin: 0 10px;
+}
+
+.google {
+  position: relative;
+  bottom: 110px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 75px;
+  width: 482px;
+  border: 1px solid #dfele5;
+  border-radius: 24px;
+  height: 44px;
+}
+
+.search:hover {
+  -webkit-box-shadow: -1px -1px 12px 0 rgba(223,225,229,1);
+  -moz-box-shadow: -1px -1px 12px 0 rgba(223,225,229,1);
+  box-shadow: -1px -1px 12px 0 rgba(223,225,229,1);
+}
+
+input {
+  border: none;
+  width: 85%;
+  font-size: 18px;
+}
+input:focus {
+  outline: none;
+}
+input[type="search"]::-webkit-search-decoration,
+        input[type="search"]::-webkit-search-cancel-button,
+        input[type="search"]::-webkit-search-results-button,
+        input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.glass {
+  height: 15px;
+  width: 15px;
+  color: #9AA0A6;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.microphone {
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+.buttonwrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  bottom: 50px;
+}
+
+.btn:hover {
+  border: 1px solid #c6c6c6;
+}
+
+footer {
+            background-color: #f2f2f2;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer-container {
+            display: flex;
+            list-style: none;
+            padding: 15px;
+        }
+
+        footer a {
+            color: #5f6368;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
